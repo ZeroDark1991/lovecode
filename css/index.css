@@ -1,0 +1,92 @@
+html {
+	font-size: 20px;
+}
+
+body {
+	position: relative;
+}
+/*加载动画*/
+/*哈哈*/
+#loading {
+	z-index: 2000;
+	position: absolute;
+	left: 50%;
+	top: 50%; 
+	margin-left: -100px;
+	margin-top: -100px;
+	/*margin: auto;*/
+	width: 200px;
+	height: 200px;
+	background: white;
+	display: block;
+}
+.action{
+	margin-left: 1rem;
+}
+.action .pro-info {
+	border-radius: .5rem;
+	background-color: #333;
+	padding: 1rem;
+	color: #eee;
+	font-size: 2rem;
+}
+
+.action .pro-price {
+	height: 3rem;
+	line-height: 3rem;
+}
+
+.action .pro-price .fact{
+	border-radius: 1rem;
+	border: 1px #fff solid;
+	font-size: 1rem;
+	margin: .5rem;
+	text-align: center;
+	line-height: 2rem;
+}
+.action .pro-price .sale{
+	font-size: 2rem;
+	color: red;
+}
+.action .pro-price .sale2{
+	font-size: 1.2rem;
+	color: red;
+}
+.action .pro-qiang .qiang {
+	border-radius: 3rem;
+	background-color: red;
+	margin: 1rem;
+	/*padding: 1rem;*/
+	color: #eee;
+	font-size: 2rem;
+}
+
+.action .pro-qiang .qiang .icon{
+	border-radius: 50%;
+	background-color: brown;
+	color: #fff;
+	width: 3rem;
+	height: 3rem;
+	margin: .5rem;
+	text-align: center;
+	display: inline-block;
+}
+
+.action .pro-qiang .qiang .desc{
+	color: #fff;
+	height: 3rem;
+	margin: .5rem;
+	text-align: center;
+	display: inline-block;
+}
+
+#buy {
+	font-size: 1.2rem;
+	border-radius: .5rem;
+	background-color: red;
+	box-shadow: 0px 0px 5px 4px rgba(256, 256, 256, 0.5);
+}
+
+#buy:active {
+	box-shadow: 0px 0px 5px 4px rgba(256, 256, 256, 0.1);
+}

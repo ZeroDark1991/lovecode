@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>hello world</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/mobi.css/1.1.0/mobi.min.css" />
+		<link rel="stylesheet" href="./css/index.css" />
+		<style>
+			body {
+				/*background-color: rgba(66, 66, 66, 1);*/
+			}
+		</style>
+	</head>
+	<body>
+	<div class="flex-center">
+		<img src="./img/wolf.jpg" width="100%" alt="">
+	</div>
+	<div class="flex-left top-gap-big">
+			<div class="thumb unit-1-3 site-box">
+				<img src="./img/wolf.jpg" alt="">
+			</div>
+			<div class="action unit-2-3 site-box">
+				<!-- 产 -->
+				<div class="pro-info">
+					<div class="pro-title">
+						智能云魔方套餐
+					</div>
+					<div class="pro-price flex-center">
+						<div class="unit-1-4 site-box fact">厂家直销</div>
+						<div class="unit-1-4 site-box sale">5000$</div>
+						<div class="unit-1-4 site-box sale2">4000$</div>
+						<div id='buy' class="unit-1-4 site-box" style="text-align: center">
+							立即购买
+						</div>
+					</div>
+				</div>
+				<!-- 抢			 -->
+				<div class="pro-qiang flex-center">
+					<div class="qiang unit-1-2 site-box">		
+							<div class="icon">抢</div>
+							<div class="desc">balbabala</div>
+					</div>
+					<div class="unit-1-2 site-box"></div>
+				</div>
+			</div>	
+	</div>
+		<div id="loading">
+			加载中。。。
+		</div>
+	</body>
+	<script>
+		// document.querySelector('#buy')
+		// 	.addEventListener('click', function() {
+		// 		alert('狗毛')
+		// 		this.style.backgroundColor = 'blue'
+		// 		this.innerHTML = '成功'
+		// 	}, false)
+		setTimeout(function() {
+			document.querySelector('#loading').style.display = 'none'
+		}, 1000)
+	</script>
+</html>
